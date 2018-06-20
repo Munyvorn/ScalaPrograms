@@ -1,0 +1,5 @@
+scala Factorial.scala
+scalac Factorial.scala
+sbt compile
+run
+:q
