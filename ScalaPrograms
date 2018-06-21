@@ -1,0 +1,8 @@
+object printNum{
+def main(args: Array[String]):Unit = {
+for(i<- 1 to 19)
+{
+println(i)
+}
+}
+}

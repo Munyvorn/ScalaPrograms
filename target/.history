@@ -1,0 +1,6 @@
+scala ScalaPrograms
+scalac ScalaPrograms.scala
+compile
+scalac ScalaPrograms
+scala
+:q
