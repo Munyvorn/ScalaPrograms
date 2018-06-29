@@ -19,10 +19,10 @@ object ListDemo2 {
     println(list4)
     //adding all lists
     var listAll = List():List[List[Int]]
-    listAll = list1 :: (list2:: (list3::(list4::listAll)))
+    listAll = list1 :: (list2:: (list3::(list4::Nil)))
     println(listAll)
     // convert a list into a string
-    val list5 = list1.mkString(""):String
+    val list5 = list1.mkString("")
     println(list5)
     // print all elements of a list except the last one
     var list6 = List():List[Int]
@@ -32,7 +32,7 @@ object ListDemo2 {
         list6= n :: list6
       }
     println(list6.reverse)
-
+    println(list6.reverse.init)
 
   }
 }
